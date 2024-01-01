@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* write your CSS here */
+
+body {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f8ff;
+}
+
+.card {
+  width: 80%;
+  margin: auto;
+  background-color: #fff;
+  padding: 2em 4em;
+  border-radius: .7em;
+  box-shadow: .5em .5em #eceff1;
+}
+
+.info-categ {
+  text-align: center;
+  padding-bottom: 1em;
+  line-height: 1.4em;
+}
+
+h1 {
+  padding-bottom: .6em;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: .7;
+}
+
+.add-categ {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  justify-content: center;
+  margin: 0 auto;
+  gap: .6em;
+}
+
+.submit-email {
+  display: flex;
+  justify-content: space-between;
+}
+
+.submit-email_style {
+  font-size: 1.2rem;
+  padding: .7em 1em;
+  border-radius: .3em;
+}
+
+#email {
+  width: 22em;
+  background: #f0f8ff;
+  border: .5px solid #b1b2b3;
+}
+
+button {
+  color: #ffff;
+  background-color: #010f1c;
+  border: none;
+}
+
+.checkbox-agreement {
+  display: flex;
+  align-items: start;
+  gap: .8em;
+}
+
+.checkbox-agreement label {
+  font-size: .9em;
+}
+
+.checkbox-agreement input {
+  /* appearance: none;
+  width: 2em;
+  height: 1.2em;
+  border-radius: .17em;
+  border: 1px solid rgb(114, 114, 114); */
+}
